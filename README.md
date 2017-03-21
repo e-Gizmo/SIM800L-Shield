@@ -7,10 +7,15 @@
 - YouTube Channel: www.youtube.com/channel/UCPTmP3ql3_D302-zh5sZqAw
 
 
-## Sample connections:
+## Sample connections: gizDuino PLUS
 ![Imgur](http://i.imgur.com/4wc1kd8.png)
+### If you are using a SoftwarSerial library, you need to select the SUART to connect on the pin 2 and 3.
 
-###### If you are using a SoftwarSerial library, you need to select the SUART to connect on the pin 2 and 3.
+## Arduino MEGA 2560
+![Imgur](http://i.imgur.com/1msoLWR.png)
+### You can use Serial1 on your codes, instead of using library.
+
+
 
 
 ## The library
@@ -25,6 +30,9 @@
 ```
 ## without library
 Sample code Serial Only <https://gist.github.com/e-Gizmo/7866465>
+
+Sample code using Serial1 (for gizDuino PLUS, X, and Arduino MEGA)
+<https://gist.github.com/e-Gizmo/dc55f1426d70c404abf01dd302a1cca4>
 
 
 - For Technical Support, Kindly email us at <egizmo.technical@gmail.com>
